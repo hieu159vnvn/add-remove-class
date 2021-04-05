@@ -1,0 +1,3 @@
+  $('.top-swiper .swiper-slide').on('click', function  () {
+        $(this).addClass('active').siblings().removeClass('active');
+      })
